@@ -1,5 +1,5 @@
 {
-  "name": "@serprex/react-motion",
+  "name": "@ruscalworld/react-motion",
   "version": "0.6.3",
   "description": "A spring that solves your animation problems.",
   "main": "lib/react-motion.js",
@@ -55,7 +55,7 @@
     "prebuild:lib": "rm -rf lib",
     "build:lib": "babel src --out-dir lib",
     "build:flow": "flow-copy-source -v src lib",
-    "build": "npm run build:dist && npm run build:lib && npm run build:flow",
+    "build": "npm run build:dist && npm run build:flow",
     "build-demos": "webpack",
     "lint": "eslint --ext .js,.jsx .",
     "flow_check": "flow check",
